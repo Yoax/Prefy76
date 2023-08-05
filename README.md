@@ -1,4 +1,4 @@
-# Prefy, kézako ?
+# Le projet Prefy
 Travaillant dans un service public autour de l'inclusion numérique auprès d'un public majoritairement étranger, j'ai constaté un accès et un maintien des droits en France qui bloque trop souvent sur une *simple* prise de rendez-vous sur une plateforme en ligne. En effet, trop d'usagers rencontrent une rupture de leurs droits sociaux suite à l'expiration d'un titre de séjour et ce même s'ils anticipent les délais.
 ## Quel est le but premier de Prefy ?
 Prefy a pour objectif d'accompagner aux services *étrangers* des préfectures sur l'ensemble du territoire français.
@@ -41,7 +41,8 @@ En préparation de la 2.7 :
 - Le script renseignera ses trouvailles dans des fichiers mis à disposition de tous.
 Les notifications Discord resteront pour la Préfecture de la Seine-Maritime jusqu'à la sortie de l'application mobile en 3.0.
 ## [] 3.0
-Publication de l'application mobile !
+Publication de l'application mobile ! Au minimum, celle-ci permettra à l'utilisateur de renseigner sa Préfecture et les démarches pour lesquelles il souhaite être notifié.
+Le script sera adapté en conséquence.
 
 # Remerciements
 Merci aux inombrables ressources qui me servirent de point de départ dans la programmation en Python et en Javascript. Une pensée plus dirigée vers [OpenClassrooms](https://openclassrooms.com/fr) qui cultive mes expérimentations depuis de trèèèèès nombreuses années.
