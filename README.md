@@ -20,6 +20,7 @@ Un programme informatique est capable de naviguer sur Internet. En lui donnant l
 Concrêtement, _NotSoEasyPref_ regarde à intervales réguliers si des créneaux sont mis en ligne pour chaque démarche. Il informe ensuite le serveur de ses trouvailles.
 ## Un serveur
 Pour que tout ce travail sorte de mon ordinateur, Prefy doit reposer sur un serveur. Il travaille dans un serveur, y stocke ses données et permet à l'application d'y accéder !
+Actuellement, c'est un Raspeberry Pi 4 qui est accueille Prefy.
 ## Une application
 Ma première idée était que Prefy repose sur des SMS. Néanmoins, cela me pose deux problèmes majeurs : l'acquisition et le stockages des numéros de téléphone doivent respecter les règles autour des données personnelles. Deuxième problème : utiliser une carte SIM personnelle dans ce genre d'usages est illégal et les plateformes légales pour l'envoi de SMS facturent... au SMS. Pour une application qui est censée un nombre indéfini de notifications, ça ne le fait pas.
 Dans sa première itération, Prefy repose sur Discord pour notifier ses utilisateurs. C'est peu optimal et me pose des problèmes de confidentialité : chaque utilisateur doit s'identifier à Discord et rejoindre le serveur Prefy. Faire un usage détourné de cet outil n'est pas une solution pérenne.
@@ -29,14 +30,14 @@ C'est la partie _application_ qui fut la plus hardue à définir. Les contrainte
 # Roadmap
 La mise à disposition des versions sur ce dépôt GitHub démarre à la version 2.5. Je garde mon _versionning_ d'origine par pure caprice !
 ## [x] 2.5
-- Prise en charge uniquement de la Préfecture de la Seine-Maritime.
+- Prise en charge uniquement de la Préfecture de la Seine-Maritime à Rouen.
 - Notifications sur un serveur Discord dédié.
 ## [] 2.6
 En préparation de la 2.7 :
 - Le code sera plus modulaire.
 - Les URL des différentes pages de la Préfecture ne seront plus dans le code. En effet, le script sera accompagné d'un fichier .csv qui contiendra toutes les informations nécessaires au fonctionnement du script afin de gagner en facilité de maintenance.
 ## [] 2.7
-- Prise en charge de toutes les Préfectures. Le CSV sera mis en ligne.
+- Prise en charge de toutes les Préfectures et Sous-Préfectures. Le CSV sera mis en ligne.
 - Le script renseignera ses trouvailles dans des fichiers mis à disposition de tous.
 Les notifications Discord resteront pour la Préfecture de la Seine-Maritime jusqu'à la sortie de l'application mobile en 3.0.
 ## [] 3.0
