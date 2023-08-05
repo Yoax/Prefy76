@@ -29,18 +29,18 @@ C'est la partie _application_ qui fut la plus hardue à définir. Les contrainte
 
 # Roadmap
 La mise à disposition des versions sur ce dépôt GitHub démarre à la version 2.5. Je garde mon _versionning_ d'origine par pure caprice !
-## [x] 2.5
+## VERSION ACTUELLE : 2.5
 - Prise en charge uniquement de la Préfecture de la Seine-Maritime à Rouen.
 - Notifications sur un serveur Discord dédié.
-## [] 2.6
+## 2.6
 En préparation de la 2.7 :
 - Le code sera plus modulaire et bien plus commenté.
 - Les URL des différentes pages de la Préfecture ne seront plus dans le code. En effet, le script sera accompagné d'un fichier .csv qui contiendra toutes les informations nécessaires au fonctionnement du script afin de gagner en facilité de maintenance.
-## [] 2.7
+## 2.7
 - Prise en charge de toutes les Préfectures et Sous-Préfectures. Le CSV sera mis en ligne.
 - Le script renseignera ses trouvailles dans des fichiers mis à disposition de tous.
 Les notifications Discord resteront pour la Préfecture de la Seine-Maritime jusqu'à la sortie de l'application mobile en 3.0.
-## [] 3.0
+## 3.0
 Publication de l'application mobile ! Au minimum, celle-ci permettra à l'utilisateur de renseigner sa Préfecture et les démarches pour lesquelles il souhaite être notifié.
 Le script sera adapté en conséquence.
 
