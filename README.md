@@ -34,7 +34,7 @@ La mise à disposition des versions sur ce dépôt GitHub démarre à la version
 - Notifications sur un serveur Discord dédié.
 ## [] 2.6
 En préparation de la 2.7 :
-- Le code sera plus modulaire.
+- Le code sera plus modulaire et bien plus commenté.
 - Les URL des différentes pages de la Préfecture ne seront plus dans le code. En effet, le script sera accompagné d'un fichier .csv qui contiendra toutes les informations nécessaires au fonctionnement du script afin de gagner en facilité de maintenance.
 ## [] 2.7
 - Prise en charge de toutes les Préfectures et Sous-Préfectures. Le CSV sera mis en ligne.
