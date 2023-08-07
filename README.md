@@ -1,19 +1,19 @@
-# Le projet Prefy
+# Le projet Prefy76
 Travaillant dans un service public autour de l'inclusion numérique auprès d'un public majoritairement étranger, j'ai constaté un accès et un maintien des droits en France qui bloque trop souvent sur une *simple* prise de rendez-vous sur une plateforme en ligne. En effet, trop d'usagers rencontrent une rupture de leurs droits sociaux suite à l'expiration d'un titre de séjour et ce même s'ils anticipent les délais.
-## Quel est le but premier de Prefy ?
+## Quel est le but premier de Prefy76 ?
 Prefy a pour objectif d'accompagner aux services *étrangers* des préfectures sur l'ensemble du territoire français.
-## Que puis-je attendre de Prefy ?
-A terme, Prefy permettra aux usagers ou leurs aidants de :
+## Que puis-je attendre de Prefy76 ?
+A terme, Prefy76 permettra aux usagers de Seine-Maritime ou leurs aidants de :
 - préparer la prise du créneau de rendez-vous en informant sur le déroulé de la démarche,
 - recevoir une notification quand leur préfecture mettra en ligne le créneau qui les intéressent.
-## Que ne dois-je pas attendre de Prefy ?
+## Que ne dois-je pas attendre de Prefy76 ?
 Prefy n'est pas ni ne sera :
 - un outil pour prendre connaissance de ses droits,
 - un outil pour prendre automatiquement un rendez-vous,
 - un remplacement 100% fiable d'une vérification manuelle.
 
 # Comment ça marche ?
-Pour plus de lisibilité, éclatons ce qui compose Prefy.
+Pour plus de lisibilité, éclatons ce qui compose Prefy76.
 ## Une automatisation
 Au tout départ, Prefy s'appellait _NotSoEasyPref_. Son but n'était alors que de recenser le nombre de créneaux disponibles et d'en sortir un graphique pour analyser et comprendre _quand_ sont mis en ligne les rendez-vous. Historiquement, l'automatisation de Prefy se nomme donc toujours _NotSoEasyPref_
 Un programme informatique est capable de naviguer sur Internet. En lui donnant les bonnes instructions, il peut se rendre où nous le souhaitons ! Dans cette logique, _NotSoEasyPref_ parcourt les pages de la préfecture pour _essayer_ de prendre un rendez-vous comme monsieur tout le monde. Il analyse ensuite ce qui lui est proposé : peut-il choisir un créneau ? si oui, combien en a-t-il à disposition ?..
@@ -30,14 +30,12 @@ C'est la partie _application_ qui fut la plus hardue à définir. Les contrainte
 # Roadmap
 La mise à disposition des versions sur ce dépôt GitHub démarre à la version 2.5. Je garde mon _versionning_ d'origine par pure caprice !
 ## VERSION ACTUELLE : 2.5
-- Prise en charge uniquement de la Préfecture de la Seine-Maritime à Rouen.
 - Notifications sur un serveur Discord dédié.
 ## 2.6
 En préparation de la 2.7 :
 - Le code sera plus modulaire et bien plus commenté.
 - Les URL des différentes pages de la Préfecture ne seront plus dans le code. En effet, le script sera accompagné d'un fichier .csv qui contiendra toutes les informations nécessaires au fonctionnement du script afin de gagner en facilité de maintenance.
 ## 2.7
-- Prise en charge de toutes les Préfectures et Sous-Préfectures. Le CSV sera mis en ligne.
 - Le script renseignera ses trouvailles dans des fichiers mis à disposition de tous.
 Les notifications Discord resteront pour la Préfecture de la Seine-Maritime jusqu'à la sortie de l'application mobile en 3.0.
 ## 3.0
