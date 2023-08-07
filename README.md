@@ -20,9 +20,9 @@ La mise à disposition des versions sur ce dépôt GitHub démarre à la version
 En préparation de la 2.7 :
 - Le code sera plus modulaire et bien plus commenté.
 - Les URL des différentes pages de la Préfecture ne seront plus dans le code. En effet, le script sera accompagné d'un fichier .csv qui contiendra toutes les informations nécessaires au fonctionnement du script afin de gagner en facilité de maintenance.
+- Le script exportera des données.
 ## 2.7
-- Le script renseignera ses trouvailles dans des fichiers mis à disposition de tous.
-Les notifications Discord resteront pour la Préfecture de la Seine-Maritime jusqu'à la sortie de l'application mobile en 3.0.
+- Le script renseignera ses trouvailles dans des fichiers mis à la disposition de tous.
 ## 3.0
 Publication de l'application mobile ! Au minimum, celle-ci permettra à l'utilisateur de renseigner sa Préfecture et les démarches pour lesquelles il souhaite être notifié.
 Le script sera adapté en conséquence.
