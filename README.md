@@ -1,5 +1,4 @@
-# Le projet Prefy76
-Travaillant dans un service public autour de l'inclusion numérique auprès d'un public majoritairement étranger, j'ai constaté un accès et un maintien des droits en France qui bloque trop souvent sur une *simple* prise de rendez-vous sur une plateforme en ligne. En effet, trop d'usagers rencontrent une rupture de leurs droits sociaux suite à l'expiration d'un titre de séjour et ce même s'ils anticipent les délais.
+# Prefy76
 ## Quel est le but premier de Prefy76 ?
 Prefy76 a pour objectif d'accompagner aux services *étrangers* des préfectures sur l'ensemble du territoire seinomarin.
 ## Que puis-je attendre de Prefy76 ?
