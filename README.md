@@ -13,15 +13,13 @@ Prefy n'est pas ni ne sera :
 
 # Roadmap
 La mise à disposition des versions sur ce dépôt GitHub démarre à la version 2.5. Je garde mon _versionning_ d'origine par pure caprice !
-## VERSION ACTUELLE : 2.5
+## 2.5
 - Notifications sur un serveur Discord dédié.
-## 2.6
+## Actuelle : 2.6
 En préparation de la 2.7 :
-- Le code sera plus modulaire et bien plus commenté.
-- Les URL des différentes pages de la Préfecture ne seront plus dans le code. En effet, le script sera accompagné d'un fichier .csv qui contiendra toutes les informations nécessaires au fonctionnement du script afin de gagner en facilité de maintenance.
-- Le script exportera des données.
-## 2.7
-- Le script renseignera ses trouvailles dans des fichiers mis à la disposition de tous.
+- Le code est plus modulaire et bien plus commenté.
+- Les URL des différentes pages de la Préfecture ne sont plus dans le code. En effet, le script est accompagné d'un fichier _dictionnaire.csv_ qui comprend toutes les informations nécessaires au fonctionnement du script afin de gagner en facilité de maintenance.
+- Le script exporte des données.
 ## 3.0
 Publication de l'application mobile ! Au minimum, celle-ci permettra à l'utilisateur de renseigner sa Préfecture et les démarches pour lesquelles il souhaite être notifié.
 Le script sera adapté en conséquence.
