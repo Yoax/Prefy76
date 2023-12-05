@@ -1,33 +1,3 @@
-# Prefy76
-## Quel est le but premier de Prefy76 ?
-Prefy76 a pour objectif d'accompagner aux services *étrangers* des préfectures sur l'ensemble du territoire seinomarin.
-## Que puis-je attendre de Prefy76 ?
-A terme, Prefy76 permettra aux usagers de Seine-Maritime ou leurs aidants de :
-- préparer la prise du créneau de rendez-vous en informant sur le déroulé de la démarche,
-- recevoir une notification quand leur préfecture mettra en ligne le créneau qui les intéressent.
-## Que ne dois-je pas attendre de Prefy76 ?
-Prefy n'est pas ni ne sera :
-- un outil pour prendre connaissance de ses droits,
-- un outil pour prendre automatiquement un rendez-vous,
-- un remplacement fiable d'une vérification manuelle.
+Suite à des changements sur le coeur même de la réservation de créneaux de RDV, Prefy76 n'est plus fonctionnel.
 
-# Roadmap
-La mise à disposition des versions sur ce dépôt GitHub démarre à la version 2.5. Je garde mon _versionning_ d'origine par pure caprice !
-## 2.5
-- Notifications sur un serveur Discord dédié.
-## Actuelle : 2.6
-En préparation de la 2.7 :
-- Le code est plus modulaire et bien plus commenté.
-- Les URL des différentes pages de la Préfecture ne sont plus dans le code. En effet, le script est accompagné d'un fichier _dictionnaire.csv_ qui comprend toutes les informations nécessaires au fonctionnement du script afin de gagner en facilité de maintenance.
-- Le script exporte des données.
-## 3.0
-Publication de l'application mobile ! Au minimum, celle-ci permettra à l'utilisateur de renseigner sa Préfecture et les démarches pour lesquelles il souhaite être notifié.
-Le script sera adapté en conséquence.
-
-# Remerciements
-Merci aux inombrables ressources qui me servirent de point de départ dans la programmation en Python et en Javascript. Une pensée plus dirigée vers [OpenClassrooms](https://openclassrooms.com/fr) qui cultive mes expérimentations depuis de trèèèèès nombreuses années.
-## Bibliothèques
-Ce projet n'aurait sûrement jamais vu le jour sans les développeurs derrière les bibliothèques sur lesquelles reposent Prefy :
-### Python
-- [Selenium](https://github.com/SeleniumHQ/selenium) m'a permis d'automatiser la navigation sur un site Internet et d'approndir depuis sa documentation qualitative mes connaissances en HTML.
-- [python-discord-webhook](https://github.com/lovvskillz/python-discord-webhook) m'a facilité l'intégration de Discord au projet. Un beau gain de temps pour une solution qui plus est intermédiaire.
+N'ayant aucun retour sur ce nouveau système et s'il résoud ma problèmatique initiale, c'est-à-dire permettre à toutes et tous d'obtenir un RDV dans des délais raisonnables, Prefy76 pourrait être abandonné.
